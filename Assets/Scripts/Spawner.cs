@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterInstantiator : MonoBehaviour
+public class Spawner : MonoBehaviour
 {
-    [SerializeField] private GameObject _template;
+    [SerializeField] private Enemy _template;
     [SerializeField] private int _count;
     [SerializeField] private float _pause;
     [SerializeField] private Transform _spawnPoints;

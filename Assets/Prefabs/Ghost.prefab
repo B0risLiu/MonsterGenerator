@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 7628107805767520269}
   - component: {fileID: 7628107805767520270}
   - component: {fileID: -8122544929668563772}
+  - component: {fileID: 4636445199338636344}
   m_Layer: 0
-  m_Name: Monster
+  m_Name: Ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98,3 +99,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spead: 4
+--- !u!114 &4636445199338636344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7628107805767520273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9832a7dd4c8919742a40d94cc1e12399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
